@@ -1,0 +1,225 @@
+/***** BASE STYLES *****/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    background: #1f202b;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+#laszlo, #nest, #essence {
+    height: 525px;
+}
+/***** Grid Layout *****/
+
+.full-width{
+    width: 1200px !important;  
+    float: left;
+}
+
+.half-width{
+    width: 600px;
+    float: left;
+}
+
+.third-width{
+    width:400px;
+    float: left;
+}
+
+h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 72px;
+    font-weight: 600;
+}
+
+h2{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: lowercase;
+    
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400; 
+    color: #ffffff;
+}
+
+/***** header *****/
+
+header{
+    height: 800px;
+    width: 1400px;  
+    background: url('../img/hero-background.png');
+    background-size: cover;  
+}
+
+header h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:30px;
+    font-weight: 400;
+    color: #ffffff;
+    padding:65px 0 65px 25px;
+    text-transform: lowercase;
+}
+
+nav {
+    float: right; 
+    padding: 45px 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+	text-decoration: none;
+    color:#ffffff;
+    text-transform: lowercase;
+    font-weight: 400;
+    font-size: 30px;
+    padding-left: 35px;
+   
+}
+
+header .header-image{
+    background: url('../img/hero-background.png');
+    background-size: cover;
+}
+
+header h2{
+    width: 1400px;
+    clear: both;
+    font-family: 'Source Code Pro' , monospace;
+    font-size: 72px;
+    line-height: 80px;
+    color: #ffffff;
+    padding: 20px 0 20px 25px;
+}
+
+header h2 span{
+    color: #fa0075;
+}
+
+/***** laszlo *****/
+
+#laszlo .full-width{
+    padding: 80px 0;
+}
+
+#laszlo h2{
+    color: #fa0075;
+    text-align: center;
+}
+
+#laszlo h3{
+    padding-left: 200px;
+}
+
+#laszlo p{
+    padding-left: 200px;
+    margin: 0 auto;
+}
+
+/***** nest fragrances *****/
+
+#nest{
+    float: left;
+}
+
+#nest .full-width{
+    padding: 20px; 
+}
+
+#nest h3{
+    padding-right: 100px;   
+}
+
+#nest p{
+    padding-right: 0px;   
+}
+
+/***** essence fragrances *****/
+
+#essence .full-width{
+    padding: 80px 0;
+}
+
+#essence h3{
+    padding-left: 200px;
+}
+
+#essence p{
+    padding-left: 200px;
+}
+/***** about *****/
+
+#about{
+    height: 550px;
+    width: 1200px;
+    background: url('../img/about-me.png');
+    background-size: cover;
+    padding: 0px;  
+    float: left;
+}
+
+#about half-width{
+    width: 900px;
+}
+
+#about h2{
+    color: #fa0075;
+    text-align: center;
+}
+
+#about p{
+    margin: 40px;
+    color: #000000;
+    font-size: 21px;
+    
+}
+
+/***** contact *****/
+
+#contact{
+    float: left;
+    text-align: center;
+}
+
+#contact h2{
+    color: #fa0075;
+    text-align: center;
+}
+
+#hire a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#social ul li{
+    display: inline-block;
+}
+
+#meet h3{
+    color: #ffffff;
+    font-size: 24px;
+}
+
+#meet h3 span{
+    font-weight: 400;
+}
+
